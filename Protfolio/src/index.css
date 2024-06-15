@@ -14,6 +14,7 @@ a {
 }
 
 /* Navbar Section */
+/* Navbar Section */
 
 .nav_bar {
   display: flex;
@@ -64,6 +65,7 @@ a {
 }
 
 /* Home Section */
+/* Main styles for the home section */
 .home {
   height: 80vh;
   display: flex;
@@ -153,6 +155,7 @@ a {
 }
 
 /* Experience Section */
+
 .ex {
   width: 900px;
 }
@@ -171,9 +174,10 @@ a {
 }
 
 /* Skills */
+/* Main styles for the skills section */
 .skills {
   width: 900px;
-  margin: auto; 
+  margin: auto; /* Center the skills section */
 }
 
 .skills .items {
@@ -186,7 +190,7 @@ a {
 
 /* Styles for each skill item */
 .skills .items .item {
-  width: calc(33.33% - 40px); 
+  width: calc(33.33% - 40px); /* Adjust width considering margin */
   background-color: black;
   margin: 20px;
   text-align: center;
@@ -203,23 +207,24 @@ a {
 /* Responsive styles */
 @media (max-width: 768px) {
   .skills {
-    width: 100%;
-    padding: 20px;
+    width: 100%; /* Full width for smaller screens */
+    padding: 20px; /* Add some padding */
   }
 
   .skills .items {
-    flex-direction: column; 
+    flex-direction: column; /* Stack items vertically */
   }
 
   .skills .items .item {
-    width: 100%; 
-    margin: 10px 0; 
+    width: 100%; /* Full width for each item */
+    margin: 10px 0; /* Vertical margin */
   }
 
   .skills .items .item img {
-    width: 50px; 
+    width: 50px; /* Adjust image size for better fit */
   }
 }
+
 
 /* Contact */
 
